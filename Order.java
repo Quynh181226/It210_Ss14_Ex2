@@ -19,7 +19,6 @@ public class Order {
     @Column(name = "total_amount")
     private Double totalAmount;
 
-    // BẮT BUỘC PHẢI THÊM 2 DÒNG NÀY
     private Integer quantity;
 
     @Column(name = "product_id")
